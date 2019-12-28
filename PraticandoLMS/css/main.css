@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+.menu-principal {
+    background-color: #6381B3;
+    height: 60px;
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.logo img{
+    width: 88px;
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    width: 80%;
+}
+
+.redessociais ul li {
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline;
+    float: left;
+    list-style: none;
+}
+.redessociais {
+    width: 20%;
+    float: right;
+}
+
+.redessociais img {
+    width: 30px;
+    height: 30px;
+}
