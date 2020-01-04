@@ -6,6 +6,11 @@ body {
     width: 100%;
     height: 100%;
 }
+
+ul {
+    padding: 0px!important;
+}
+
 .menu-principal {
     background-color: #6381B3;
     height: 60px;
@@ -47,15 +52,30 @@ main {
 
 .menu-abas {
     background-color: #ffffff;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
+    padding: 34px;
+}
+
+.menu-urls {
+    border-bottom: 3px solid #efefef;
     height: 84px;
-    border-bottom: 3px solid #000000;
 }
 
 .menu ul li {
     display: inline;
     color: #6381B3;
     margin-left: 34px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 1px solid #F5E987;
+}
+
+.menu ul li a:hover {
+    color: #F5E987;
+    
 }
 
 .menu ul li a{
@@ -71,6 +91,25 @@ main {
 }
 
 .busca {
+    text-align: center;
     width: 30%;
     float: right;
+}
+
+.busca input {
+    background-image: url("../img/searchicon.svg");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 16px;
+    width: 190px;
+    height: 30px;
+    border: 1px solid #6381B3;
+    padding: 10px;
+
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
