@@ -52,7 +52,7 @@ main {
 
 .menu-abas {
     background-color: #ffffff;
-    width: 980px;
+    width: 77%;
     margin: 0 auto;
     padding: 34px;
 }
@@ -93,7 +93,7 @@ main {
 
 .busca {
     text-align: center;
-    width: 30%;
+    width: 23%;
     float: right;
 }
 
@@ -119,4 +119,43 @@ main {
 ::placeholder { 
     color: #6381B3;
     opacity: 50%;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 18px;
+    height: 32px;
+    z-index: 9;
+
+    background-image: url('../img/arrow-previous.png');
+    position: absolute;
+    top: 40%;background-color: transparent;
+    left: 15%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 18px;
+    height: 32px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url('../img/arrow-next.png');
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+.slick-dots li button {
+    display: inline-block;
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #6381B3;
+}
+
+.slick-dots li.slick-active {
+    background-color: #6381B3;
 }
