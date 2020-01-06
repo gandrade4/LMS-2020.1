@@ -16,7 +16,7 @@ ul {
     height: 60px;
 }
 
-main {
+main, .content {
     position: relative;
     margin: 0 auto;
     width: 980px;
@@ -176,4 +176,16 @@ li.slick-active button {
 
 .slick-initialized {
     overflow: hidden;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    font-family: 'Arial';
+    color: #6381B3;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
 }
