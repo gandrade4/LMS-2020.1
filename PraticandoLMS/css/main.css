@@ -116,6 +116,13 @@ main, .content {
     position: relative;
 }
 
+.col-101 {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 50px;
+}
+
 ::placeholder { 
     color: #6381B3;
     opacity: 50%;
@@ -178,15 +185,15 @@ li.slick-active button {
     overflow: hidden;
 }
 
-.texto-destaque {
+.texto-destaque1 {
     text-align: center;
 }
 
-.texto-destaque p {
+.texto-destaque1 p {
     text-align: center;
 }
 
-.texto-destaque h1 {
+.texto-destaque1 h1 {
     font-family: 'Arial';
     color: #6381B3;
     text-decoration: none;
@@ -194,6 +201,20 @@ li.slick-active button {
     text-transform: uppercase;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.texto-destaque2 {
+    text-align: center;
+}
+
+.texto-destaque2 h1 {
+    font-family: 'Arial';
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .col-3 {
@@ -234,8 +255,9 @@ li.slick-active button {
 
 .bloco-imagem {
     height: 300px;
-    border: 1px solid #c5c5c5;
-    padding-top: 5px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    padding-top: 10px;
     padding-bottom: 5px;
     margin-left: 10px;
 }
@@ -252,10 +274,10 @@ li.slick-active button {
 }
 
 .bloco-imagens-texto {
-    background-color: #eeeeee;
+    background-color: #6381B3;
 }
 
-.bloco-imagens-texto:before {
+/*.bloco-imagens-texto:before {
     width: 100%;
     display: inline-block;
     content: '';
