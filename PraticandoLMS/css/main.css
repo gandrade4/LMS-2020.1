@@ -299,3 +299,69 @@ li.slick-active button {
     width: 267px;
     height: 70px;
 }
+
+.col-5 {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+.col-5 h3 {
+    display: inline-block;
+    font-family: Arial;
+    text-align: left;
+    color: #d6d6d6;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.col-5 p {
+    font-family: Arial;
+    text-align: left;
+    color: #A2A2A2;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: #484848;
+}
+
+.clock {
+    color: #898989!important;
+}
+
+.clock:before {
+    content: '';
+    width:  15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before, .email:before, .tel:before {
+    content: '';
+    width:  17px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    
+}
+.local:before {
+    background-image: url('../img/local.png');
+}  
+.email:before {
+    background-image: url('../img/email.png');
+}  
+.tel:before {
+    background-image: url('../img/tel.png');
+}  
