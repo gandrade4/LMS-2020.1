@@ -364,4 +364,38 @@ li.slick-active button {
 }  
 .tel:before {
     background-image: url('../img/tel.png');
-}  
+}
+
+.footer-2 {
+    background-color: #272727;
+}
+
+.last-text p{
+    font-family: Arial;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.last-text {
+    float: left;
+    width: 60%;
+}
+
+.redessociais-rodape ul li {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: inline;
+    float: right;
+    list-style: none;
+}
+.redessociais-rodape {
+    width: 40%;
+    float: right;
+}
+
+.redessociais-rodape img {
+    width: 25px;
+    height: 25px;
+}
