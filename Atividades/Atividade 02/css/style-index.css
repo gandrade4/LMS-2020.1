@@ -1,8 +1,9 @@
 *{margin: 0;}
 
+/* HEADER INÍCIO*/
 .header-1{
     background-color: black;
-    height: 50px;
+    height: 372px;
 }
 
 .sub-header{
@@ -36,4 +37,28 @@
 .header-2 img{
     width: 100%;
     height: 100%;
+}
+/* HEADER FIM*/
+
+.nav-background{
+    width: 900px;
+    height: 50px;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sub-nav{
+    
+}
+
+.tabs ul li{
+    margin-top: 12px;
+    margin-left: 12px;
+    display: inline;
+}
+
+.tabs ul li a{
+    text-align: center;
 }
