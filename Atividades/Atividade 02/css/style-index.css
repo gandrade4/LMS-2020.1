@@ -1,12 +1,12 @@
 *{margin: 0;}
 
 /* HEADER INÍCIO*/
-.header-1{
+header{
     background-color: black;
     height: 50px;
 }
 
-.sub-header{
+.header-1{
     margin: 0 auto;
     width: 900px;
 }
@@ -46,20 +46,16 @@
     background-color: black;
     border-radius: 0px 0px 20px 20px;
     margin: 0 auto;
-    position: relative;
-}
-
-.tabs{
-    margin-top: 322px;
-}
-
-.tabs ul li{
     
+}
+
+.nav-background ul li{
+    margin-top: 12px;
     margin-left: 120px;
     display: inline;
 }
 
-.tabs ul li a{
+.nav-background ul li a{
     padding: 12px 0;
     font-family: 'Noto Sans Regular';
     color: white;
