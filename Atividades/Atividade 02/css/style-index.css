@@ -3,7 +3,7 @@
 /* HEADER INÍCIO*/
 .header-1{
     background-color: black;
-    height: 372px;
+    height: 50px;
 }
 
 .sub-header{
@@ -49,16 +49,18 @@
     position: relative;
 }
 
-.sub-nav{
-    
+.tabs{
+    margin-top: 322px;
 }
 
 .tabs ul li{
-    margin-top: 12px;
-    margin-left: 12px;
+    padding-top: 12px;
+    margin-left: 120px;
     display: inline;
 }
 
 .tabs ul li a{
-    text-align: center;
+    font-family: 'Noto Sans Regular';
+    color: white;
+    text-decoration: none;
 }
