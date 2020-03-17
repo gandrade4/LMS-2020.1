@@ -7,17 +7,21 @@
 }
 .sub-header{
     margin: 0 auto;
-    width: 1000px;
+    width: 900px;
 }
 
 .img-logo{
     float: left;
-    width: 80%;
+    width: 70%;
+}
+
+.img-logo img{
+    margin-top: 12px;
 }
 
 .img-socialmedia{
     float: left;
-    width: 20%;
+    width: 30%;
 }
 
 .img-socialmedia ul li{
