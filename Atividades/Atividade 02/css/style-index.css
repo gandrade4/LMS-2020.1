@@ -3,8 +3,8 @@
 .header-1{
     background-color: black;
     height: 50px;
-    
 }
+
 .sub-header{
     margin: 0 auto;
     width: 900px;
@@ -26,8 +26,14 @@
 
 .img-socialmedia ul li{
    margin-top: 12px;
+   margin-bottom: 9px;
    margin-left: 12px;
    display: inline;
    float: right;
    list-style: none;
+}
+
+.header-2 img{
+    width: 100%;
+    height: 100%;
 }
