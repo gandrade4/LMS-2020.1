@@ -54,12 +54,13 @@
 }
 
 .tabs ul li{
-    padding-top: 12px;
+    
     margin-left: 120px;
     display: inline;
 }
 
 .tabs ul li a{
+    padding: 12px 0;
     font-family: 'Noto Sans Regular';
     color: white;
     text-decoration: none;
