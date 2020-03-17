@@ -1,0 +1,29 @@
+*{margin: 0;}
+
+.header-1{
+    background-color: black;
+    height: 50px;
+    
+}
+.sub-header{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.img-logo{
+    float: left;
+    width: 80%;
+}
+
+.img-socialmedia{
+    float: left;
+    width: 20%;
+}
+
+.img-socialmedia ul li{
+   margin-top: 12px;
+   margin-left: 12px;
+   display: inline;
+   float: right;
+   list-style: none;
+}
