@@ -48,14 +48,18 @@ header{
     margin: 0 auto;
     
 }
+.nav-background ul{
+    padding-top: 13px;
+}
 
 .nav-background ul li{
-    margin-top: 12px;
     margin-left: 120px;
     display: inline;
+    text-align: center;
 }
 
 .nav-background ul li a{
+    
     padding: 12px 0;
     font-family: 'Noto Sans Regular';
     color: white;
