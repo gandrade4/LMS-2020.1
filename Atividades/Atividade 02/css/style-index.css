@@ -1,7 +1,7 @@
 *{margin: 0;}
 
 /* HEADER INÍCIO*/
-header{
+.header-bar{
     background-color: black;
     height: 50px;
 }
