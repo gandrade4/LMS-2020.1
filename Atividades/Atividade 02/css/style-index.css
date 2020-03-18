@@ -93,3 +93,28 @@
     border-radius: 20px 20px 20px 20px;
 
 }
+
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 50px 50px 10px 50px;
+}
+
+.profile h2{
+    text-align: center;
+    font-family: 'Noto Sans Regular';
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    padding: 20px 0 10px;
+}
+
+.profile p{
+    text-align: center;
+    font-family: 'Noto Sans Regular';
+    font-style: italic;
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+}
