@@ -44,7 +44,7 @@
     height: 50px;
     background-color: black;
     border-radius: 0px 0px 20px 20px;
-    margin: 0 auto;
+    margin: -4px auto;
     
 }
 .nav-background ul{
@@ -69,3 +69,26 @@
     font-family: 'Noto Sans Medium';
 }
 /* NAV FIM */
+
+.section-mother{
+    width: 900px;
+    margin: 30px auto;
+    
+}
+
+.content{
+    width: 63%;
+    height: 1000px;
+    float: left;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.profile{
+    width: 33%;
+    height: 1000px;
+    float: right;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px 20px 20px 20px;
+
+}
