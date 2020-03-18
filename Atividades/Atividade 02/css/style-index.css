@@ -1,12 +1,12 @@
 *{margin: 0;}
 
-/* HEADER INÍCIO*/
+/* HEADER E IMG INÍCIO*/
 .header-bar{
     background-color: black;
     height: 50px;
 }
 
-.header-1{
+.header-size{
     margin: 0 auto;
     width: 900px;
 }
@@ -34,12 +34,11 @@
    list-style: none;
 }
 
-.header-2 img{
-    width: 100%;
-    height: 100%;
+.header-img img{
+    width: 100%; 
 }
-/* HEADER FIM*/
-
+/* HEADER E IMG FIM */
+/* NAV INÍCIO */
 .nav-background{
     width: 900px;
     height: 50px;
@@ -65,3 +64,8 @@
     color: white;
     text-decoration: none;
 }
+
+.nav-background ul li a:hover{
+    font-family: 'Noto Sans Medium';
+}
+/* NAV FIM */
