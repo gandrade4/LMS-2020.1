@@ -52,7 +52,7 @@
 }
 
 .nav-background ul li{
-    margin-left: 120px;
+    margin-left: 130px;
     display: inline;
     text-align: center;
 }
@@ -61,6 +61,7 @@
     
     padding: 12px 0;
     font-family: 'Noto Sans Regular';
+    font-style: italic;
     color: white;
     text-decoration: none;
 }
