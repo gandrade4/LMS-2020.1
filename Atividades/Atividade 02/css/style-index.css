@@ -86,8 +86,31 @@
 }
 
 /* ARTICLE-01 INÍCIO */
+.type1-article h1{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Noto Sans';
+    font-style: Bold;
+    color: black;
+    text-decoration: none;
+    padding: 20px 10px 5px 20px;
+}
 
+.type1-article h2{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Noto Sans Regular';
+    color: rgb(30,30,30);
+    text-decoration: none;
+    padding: 5px 10px 20px 20px;
+}
 
+.type1-article img{
+    width: 92.5%;
+    height: 92.5%;
+    border-radius: 20px;
+    margin: 5px 20px 20px 20px;
+}
 
 
 /* ARTICLE-01 FIM */
@@ -106,7 +129,7 @@
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    margin: 50px 50px 10px 50px;
+    margin: 20px 50px 10px 50px;
 }
 
 .profile h2{
@@ -115,7 +138,7 @@
     font-style: italic;
     color: black;
     text-decoration: none;
-    padding: 20px 0 10px;
+    padding: 10px 0 10px;
 }
 
 .profile p{
