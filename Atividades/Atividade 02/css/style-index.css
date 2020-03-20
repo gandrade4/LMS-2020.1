@@ -79,7 +79,7 @@
 
 .content{
     width: 63%;
-    height: 1000px;
+    height: 1300px;
     float: left;
     background-color: rgb(250, 250, 250);
     border-radius: 20px 20px 20px 20px;
@@ -112,13 +112,22 @@
     margin: 10px 20px 10px 20px;
 }
 
+.type1-article h3{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Noto Sans Regular';
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+    padding: 0 10px 0 20px;
+}
+
 .type1-article p{
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Noto Sans Regular';
     color: rgb(50, 50, 50);
     text-decoration: none;
-    padding: 10px 20px 20px 20px;
+    padding: 10px 10px 20px 20px;
 }
 
 /* ARTICLE-01 FIM */
@@ -126,7 +135,7 @@
 /* ASIDE INÍCIO */
 .profile{
     width: 33%;
-    height: 1000px;
+    height: 930px;
     float: right;
     background-color: rgb(250, 250, 250);
     border-radius: 20px 20px 20px 20px;
