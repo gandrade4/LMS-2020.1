@@ -142,11 +142,16 @@ svg{
 
 .type2-article{
     width: 600px;
+    height: 10%;
 }
 
 .text{
-    width: 80%;
-    margin: 0 0 10px 210px;
+    width: 53%;
+    position: relative;
+    top: -195px;
+    left: 220px;
+    z-index: 10;
+  
 }
 
 figure img{
@@ -166,13 +171,13 @@ figure img{
     text-align: left;
     font-size: 14pt;
     font-family: 'Noto Sans';
-    font-style: bold;
+    font-style: Bold;
     color: #121212;
     text-decoration: none;  
 }
 .text p{
     text-align: left;
-    font-size: 12pt;
+    font-size: 11pt;
     font-family: 'Noto Sans';
     font-style: bold;
     color: rgb(30, 30, 30);
@@ -230,6 +235,11 @@ footer{
     width: 900px;
 }
 
+.all-rights{
+    width: 70%;
+    float: right;
+}
+
 .all-rights h6{
     text-align: right;
     font-family: 'Noto Sans Thin';
@@ -247,9 +257,9 @@ footer{
 .img-socialmedia-footer ul li{
    margin-top: 12px;
    margin-bottom: 9px;
-   margin-left: 12px;
+   margin-right: 12px;
    display: inline;
-   float: right;
+   float: left;
    list-style: none;
 }
 
