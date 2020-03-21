@@ -25,7 +25,7 @@ main{
 }
 
 .article2{
-    font-size: 10pt;
+    font-size: 11pt;
 }
 
 .section2{
@@ -48,6 +48,21 @@ main{
     padding-bottom: 5vh;
     margin-left: 20vw;
     background-color: rgb(241, 179, 190);
+}
+
+.section3 h2{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 0 0 20vw;
+}
+
+td, th {
+    border: 1px solid #121212;
+    text-align: center;
+    padding: 8px;
 }
 
 .section4{
