@@ -139,27 +139,44 @@ svg{
 /* ARTICLE-01 FIM */
 
 /* ARTICLE-01 INÍCIO */
-.type2-article img{
+
+.type2-article{
+    width: 600px;
+}
+
+.text{
+    width: 80%;
+    margin: 0 0 10px 210px;
+}
+
+figure img{
     width: 30%;
     height: 30%;
     border-radius: 20px;
     margin: 10px 20px 10px 20px;
 }
-.type2-article h6{
+.text h6{
     text-align: left;
     font-size: 8pt;
     font-family: 'Noto Sans Thin';
     color: rgb(50, 50, 50);
     text-decoration: none;
 }
-.type2-article h1{
+.text h1{
     text-align: left;
     font-size: 14pt;
     font-family: 'Noto Sans';
     font-style: bold;
     color: #121212;
-    text-decoration: none;
-    
+    text-decoration: none;  
+}
+.text p{
+    text-align: left;
+    font-size: 12pt;
+    font-family: 'Noto Sans';
+    font-style: bold;
+    color: rgb(30, 30, 30);
+    text-decoration: none;  
 }
 
 /* ARTICLE-02 FIM */
