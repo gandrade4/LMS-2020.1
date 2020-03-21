@@ -1,12 +1,12 @@
 *{margin: 0;}
 
 /* HEADER E IMG INÍCIO*/
-.header-bar{
-    background-color: black;
+header{
+    background-color: #121212;
     height: 50px;
 }
 
-.header-size{
+.header-alighsize{
     margin: 0 auto;
     width: 900px;
 }
@@ -42,7 +42,7 @@
 .nav-background{
     width: 900px;
     height: 50px;
-    background-color: black;
+    background-color: #121212;
     border-radius: 0px 0px 20px 20px;
     margin: -4px auto;
     
@@ -91,7 +91,7 @@
     font-size: 30px;
     font-family: 'Noto Sans';
     font-style: Bold;
-    color: black;
+    color: #121212;
     text-decoration: none;
     padding: 20px 10px 5px 20px;
 }
@@ -153,7 +153,7 @@
     text-align: center;
     font-family: 'Noto Sans Regular';
     font-style: italic;
-    color: black;
+    color: #121212;
     text-decoration: none;
     padding: 10px 0 10px;
 }
@@ -167,3 +167,39 @@
     padding: 15px 15px 15px 15px;
 }
 /* ASIDE FIM */
+/* FOOTER INÍCIO */
+footer{
+    background-color: #121212;
+    height: 50px;
+    margin-top: 1500px;
+}
+
+.footer-alighsize{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.all-rights h6{
+    text-align: right;
+    font-family: 'Noto Sans Thin';
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px 15px 15px;
+}
+
+.img-socialmedia-footer{
+    float: left;
+    width: 30%;
+}
+
+.img-socialmedia-footer ul li{
+   margin-top: 12px;
+   margin-bottom: 9px;
+   margin-left: 12px;
+   display: inline;
+   float: right;
+   list-style: none;
+}
+
+/* FOOTER FIM */
