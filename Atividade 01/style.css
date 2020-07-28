@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    padding: 15px 15%;
+}
+nav a{
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 0 85px;
+}
+
+nav header h1{
+    padding: 100px 0;
+}
+
+article{
+    background-color: rgb(240, 240, 240);
+    border-radius: 25px;
+    width: 50vw;
+    height: 75vh;
+    padding-bottom: 100px;
+}
+
+article header h1{
+
+}
