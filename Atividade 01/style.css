@@ -1,5 +1,9 @@
 *{
     margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,20 +13,22 @@ h1, h2, h3, h4, h5, h6 {
 
 nav{
     background-color: black;
-    padding: 15px 15%;
-}
-nav a{
-    font-size: 10pt;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    padding: 0 85px;
 }
 
-nav header h1{
-    padding: 100px 0;
+nav ul{
+    text-align: center;
 }
+
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+}
+nav ul li a{
+    padding: 0 20px;
+    font-family: Arial;
+    color: white;
+}
+
 
 article{
     background-color: rgb(240, 240, 240);
