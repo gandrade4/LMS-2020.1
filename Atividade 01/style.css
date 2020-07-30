@@ -3,7 +3,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,15 +28,27 @@ nav ul li a{
     color: white;
 }
 
-
-article{
-    background-color: rgb(240, 240, 240);
-    border-radius: 25px;
-    width: 50vw;
-    height: 75vh;
-    padding-bottom: 100px;
+header h1 {
+    padding: 100px 0;
 }
 
-article header h1{
+.article1{
+    background-color: rgb(240, 240, 240);
+    border-radius: 25px;
+    padding: 50px;
+    width: 50vw;
+    height: max-content;
+    margin: auto;
+}
 
+.article1 header p{
+    font-family: Arial;
+    color: rgb(50, 50, 50);
+    padding-top: 50px;
+}
+
+.article1 header img{
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 50px;
 }
