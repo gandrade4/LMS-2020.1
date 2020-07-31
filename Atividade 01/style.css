@@ -28,8 +28,12 @@ nav ul li a{
     color: white;
 }
 
+nav li:hover{
+    background-color: rgb(50, 50, 50);
+}
+
 header h1 {
-    padding: 100px 0;
+    margin: 100px 0;
 }
 
 .article1{
@@ -62,7 +66,47 @@ header h1 {
     height: max-content;
 }
 
-.article2 p{
+.article2 .campos1{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-size: 12pt;
     font-family: Arial;
     color: rgb(50, 50, 50);
+    margin-bottom: 5px;
+}
+
+form input{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.article2 h1{
+    margin-bottom: 50px;
+}
+
+.article2 .campos2{
+    padding-right: 10px;
+}
+
+.article2 p{
+    font-size: 12pt;
+    font-family: Arial;
+    color: rgb(50, 50, 50);
+    margin: 15px 0 5px 0;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Arial;
+    color: white;
+    border: 0;
 }
