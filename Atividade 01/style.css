@@ -30,6 +30,7 @@ nav ul li a{
 
 nav li:hover{
     background-color: rgb(50, 50, 50);
+    cursor: pointer;
 }
 
 header h1 {
