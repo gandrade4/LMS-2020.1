@@ -1,0 +1,39 @@
+@media(max-width: 950px){
+
+    label[for="btn-menu"]{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 10px;
+    }
+    #btn-menu:checked ~ .main-nav{
+        margin-left: 0%;
+    }
+
+    .main-nav{
+        display: flex;
+        margin-left: -100%;
+        transition: 0.5s;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .main-nav ul{
+        display: block;
+    }
+
+    .submenu1{
+        display: flex;
+   
+
+    }
+    .submenu1 li{
+        display: inline-table;
+        display: none;
+        background-color: #e7e7e7;  
+    }
+}
