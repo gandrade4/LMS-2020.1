@@ -1,0 +1,210 @@
+@media (max-width: 950px) {
+  label[for="btn-menu"] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 10px;
+  }
+  #btn-menu:checked ~ .main-nav {
+    margin-left: 0%;
+  }
+  .main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logo {
+    display: none;
+  }
+  .main-nav ul {
+    display: block;
+  }
+  .submenu1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .submenu1 li {
+    display: inline-table;
+    display: none;
+    background-color: #e7e7e7;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-nav {
+  background-color: #F0F0F0;
+  position: fixed;
+  width: 100%;
+  padding: 0 50px;
+  text-decoration: none;
+  font-family: Mulish;
+  font-size: 12pt;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav li {
+  width: 100%;
+  text-align: center;
+}
+
+.main-nav lihover .submenu1 {
+  display: block;
+}
+
+.main-nav a {
+  color: #121212;
+  height: 80px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-family: Mulish;
+  font-size: 12pt;
+}
+
+.main-nav ahover {
+  background-color: #E7E7E7;
+}
+
+.submenu1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+  background-color: #F0F0F0;
+}
+
+.submenu1 li {
+  display: none;
+}
+
+.submenu1 lihover .submenu2 {
+  display: block;
+  position: relative;
+}
+
+.submenu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #F0F0F0;
+}
+
+.submenu2 li {
+  display: none;
+  position: absolute;
+}
+
+.submenu2 label {
+  width: 130px;
+  margin: 10px 10px 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #121212;
+  font-family: Mulish;
+  font-size: 12pt;
+}
+
+.submenu2 input {
+  width: 130px;
+  height: 30px;
+  color: #ffffff;
+  background-color: #121212;
+  outline: none;
+  border: 0;
+  margin: 0px 10px 5px 10px;
+}
+
+.submenu2 #submit {
+  width: 80px;
+  margin: 5px 10px 10px 10px;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Mulish;
+  font-size: 12pt;
+}
+
+label[for="btn-menu"] {
+  height: 80px;
+  width: 100%;
+  padding: 5px;
+  background-color: #F0F0F0;
+  display: none;
+}
+
+#btn-menu {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

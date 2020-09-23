@@ -7,33 +7,33 @@
     <title>FunkoStore | A loja de funkos mais fake do BR</title>
 </head>
 <body>
-    <input type="checkbox" id="btn-menu">
-    <label for="btn-menu"><img src="./img/sidebar.png" alt=""></label>
+    <!-- <input type="checkbox" id="btn-menu">
+    <label for="btn-menu"><img src="./img/sidebar.png" alt=""></label> -->
 
-    <nav class="main-nav">
-        <figure class="logo"><img src="./img/logo.png" alt=""></figure>
-        <ul>
-            <li><a href="#">heroes</a>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><img class="logo" src="./img/logo.png" alt="Brand's logo"></li>
+            <li class="item has-submenu"><a href="#">heroes</a>
                 <ul class="submenu1">
-                    <li><a href="#">dc comics</a></li>
-                    <li><a href="#">harry potter</a></li>
-                    <li><a href="#">marvel</a></li>
-                    <li><a href="#">star wars</a></li>
+                    <li class="subitem"><a href="#">dc comics</a></li>
+                    <li class="subitem"><a href="#">harry potter</a></li>
+                    <li class="subitem"><a href="#">marvel</a></li>
+                    <li class="subitem"><a href="#">star wars</a></li>
                 </ul>
             </li>
-            <li><a href="#">animation</a>
+            <li class="item has-submenu"><a href="#">animation</a>
                 <ul class="submenu1">
-                    <li><a href="#">anime</a></li>
-                    <li><a href="#">cartoon classics</a></li>
-                    <li><a href="#">disney</a></li>
-                    <li><a href="#">pixar</a></li>
-                    <li><a href="#">pokémon</a></li>
-                    <li><a href="#">video games</a></li>
+                    <li class="subitem"><a href="#">anime</a></li>
+                    <li class="subitem"><a href="#">cartoon classics</a></li>
+                    <li class="subitem"><a href="#">disney</a></li>
+                    <li class="subitem"><a href="#">pixar</a></li>
+                    <li class="subitem"><a href="#">pokémon</a></li>
+                    <li class="subitem"><a href="#">video games</a></li>
                 </ul>
             </li>
-            <li><a href="#">new</a></li>
-            <li><a href="#">exclusives</a></li>
-            <li><a href="#">sign in</a>
+            <li class="item"><a href="#">new</a></li>
+            <li class="item"><a href="#">exclusives</a></li>
+            <li class="item"><a href="#">sign in</a>
                 <ul class="submenu2">
                     <li><label for="email">email</label></li>
                     <li><input type="text"></li>
@@ -42,7 +42,10 @@
                     <li><input id="submit" type="submit"></li>
                 </ul>
             </li>
+            <li class="item-sidebar"><a href="#"><img src="./img/sidebar.png" alt="Sidebar icon"></a></li>
         </ul>
     </nav>
+
+    
 </body>
 </html>
