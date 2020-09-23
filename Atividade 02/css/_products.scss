@@ -1,0 +1,47 @@
+.products{
+    @include flexcenter;
+    height: 934px;
+    background-color: $primary-color1;
+    section{
+        @include flexcenter;
+        flex-direction: column;
+        background-color: $primary-color2;
+        width: 350px;
+        height: 454px;
+        margin: 25px 25px;
+        box-shadow: 0 0 15px rgba($primary-color1, $alpha: 0.5);
+        &:hover{
+            aside{
+                display: block;
+            }            
+        }
+    }
+
+    h1{
+        @include flexcenter;
+        @include fontstyle($primary-color1);
+        font-family: Mulish Black;
+    }
+    p{
+        @include flexcenter;
+        @include fontstyle($primary-color1);
+    }
+    aside{
+        @include flexcenter;
+        display: none;
+        background-color: $gray-scale2;
+        width: 350px;
+        height: 100px;
+        margin-top: 25px;
+        input{
+            @include flexcenter;
+            @include fontstyle($primary-color2);
+            width: 200px;
+            height: 80px;
+            font-size: 30pt;
+            background-color: $primary-color1;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+}
