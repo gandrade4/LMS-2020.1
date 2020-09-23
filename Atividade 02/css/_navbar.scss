@@ -1,8 +1,76 @@
 .navbar{
-    @include flexcenter;
-    justify-content: space-between;
-    position: fixed;
     width: 100%;
     height: 80px;
+    background-color: $gray-scale1;
+    position: fixed;
+    padding: 0 50px;
 
+    .logo{   
+        @include flexcenter;
+
+    }
+
+    a{
+        width: 100%;
+        display: block;
+        height: 80px;
+        background-color: $gray-scale1;
+        @include flexcenter;
+        @include fontstyle($primary-color1);
+        &:hover{
+            background-color: $gray-scale2;
+        }
+    }
+    ul{
+        display: flex;
+        li{
+            width: 100%;
+            &:hover .submenu1 li{
+                display: block;
+            }
+            &:hover .submenu2 li{
+                display: block;
+            }
+        }
+    }
+}
+
+.submenu1{
+
+    @include flexcenter;
+    li{
+        display: none;
+    }
+}
+.submenu2{
+    @include flexcenter;
+    background-color: $gray-scale1;
+    position: absolute;
+    li{
+        display: none;
+    }
+    label{
+        @include fontstyle($primary-color1);
+        margin: 25px;
+    }
+    input{
+        height: 25px;
+        margin: 5px 25px 5px 25px;
+        border: 0;
+        background-color: $primary-color1;
+        @include fontstyle($primary-color2);
+    }
+    #submit{
+        height: 30px;
+        width: 60px;
+        background-color: $gray-scale3;
+        text-transform: lowercase;
+        @include fontstyle($primary-color1);
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+}
+
+.item-sidebar{
+    display: none;
 }

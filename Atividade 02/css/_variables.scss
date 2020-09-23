@@ -7,11 +7,10 @@ $primary-color2: #ffffff;
 @mixin fontstyle($fontcolor){
     font-family: Mulish;
     font-size: 12pt;
-    text-decoration: none;
     color: $fontcolor;
 }
 
-@mixin flexcenter() {
+@mixin flexcenter {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
