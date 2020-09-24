@@ -16,6 +16,7 @@
 }
 
 .navbar .logo {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,6 +85,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
 }
 
 .submenu1 li {
@@ -184,7 +186,9 @@
 }
 
 .products section:hover aside {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .products h1 {
@@ -242,6 +246,9 @@
 }
 
 .products aside input {
+  font-family: Mulish;
+  font-size: 12pt;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,9 +260,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: Mulish;
-  font-size: 12pt;
-  color: #ffffff;
   width: 200px;
   height: 80px;
   font-size: 30pt;

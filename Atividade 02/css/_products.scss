@@ -12,11 +12,10 @@
         box-shadow: 0 0 15px rgba($primary-color1, $alpha: 0.5);
         &:hover{
             aside{
-                display: block;
+                display: flex;
             }            
         }
     }
-
     h1{
         @include flexcenter;
         @include fontstyle($primary-color1);
@@ -33,9 +32,10 @@
         width: 350px;
         height: 100px;
         margin-top: 25px;
-        input{
-            @include flexcenter;
+        
+        input{ 
             @include fontstyle($primary-color2);
+            @include flexcenter;
             width: 200px;
             height: 80px;
             font-size: 30pt;
