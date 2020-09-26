@@ -73,6 +73,35 @@
     display: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
+    .navbar{
+        .logo{
+            order: 1;
+        }
+        .item-sidebar{
+            order: 2;
+        }
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        a{
+            display: inline-block;
+            
+        }
+        ul{
+            display: inline-block;
+            li{
+                display: inline-block;
+                
+            }
+            
+        }
+    }
 
+    .submenu1, .submenu2{
+        position: static;
+        max-height: 0;
+        width: 100%;
+    }
 }

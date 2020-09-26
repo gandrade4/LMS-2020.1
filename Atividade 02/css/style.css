@@ -145,6 +145,39 @@
   display: none;
 }
 
+@media (max-width: 1000px) {
+  .navbar {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar .logo {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .navbar .item-sidebar {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .navbar a {
+    display: inline-block;
+  }
+  .navbar ul {
+    display: inline-block;
+  }
+  .navbar ul li {
+    display: inline-block;
+  }
+  .submenu1, .submenu2 {
+    position: static;
+    max-height: 0;
+    width: 100%;
+  }
+}
+
 .products {
   display: -webkit-box;
   display: -ms-flexbox;
