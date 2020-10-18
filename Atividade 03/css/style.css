@@ -216,12 +216,11 @@
   margin: 25px 25px;
   -webkit-box-shadow: 0 0 15px rgba(18, 18, 18, 0.5);
           box-shadow: 0 0 15px rgba(18, 18, 18, 0.5);
-}
-
-.products section:hover aside {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  /*&:hover{
+            aside{
+                display: flex;
+            }            
+        }*/
 }
 
 .products h1 {
@@ -259,7 +258,17 @@
   color: #121212;
 }
 
-.products aside {
+.products .botao-ocultar {
+  cursor: pointer;
+  position: absolute;
+}
+
+.products .botao-ocultar img {
+  width: 30px;
+  height: 30px;
+}
+
+.products .botao-comprar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,7 +287,7 @@
   margin-top: 25px;
 }
 
-.products aside input {
+.products .botao-comprar input {
   font-family: Mulish;
   font-size: 12pt;
   color: #ffffff;

@@ -10,11 +10,11 @@
         height: 454px;
         margin: 25px 25px;
         box-shadow: 0 0 15px rgba($primary-color1, $alpha: 0.5);
-        &:hover{
+        /*&:hover{
             aside{
                 display: flex;
             }            
-        }
+        }*/
     }
     h1{
         @include flexcenter;
@@ -25,7 +25,15 @@
         @include flexcenter;
         @include fontstyle($primary-color1);
     }
-    aside{
+    .botao-ocultar{
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        cursor: pointer;
+        position: absolute;
+    }
+    .botao-comprar{
         @include flexcenter;
         display: none;
         background-color: $gray-scale2;
