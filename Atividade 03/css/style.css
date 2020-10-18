@@ -61,6 +61,10 @@
   display: flex;
 }
 
+.navbar ul #botao-sair {
+  display: none;
+}
+
 .navbar ul li {
   width: 100%;
 }

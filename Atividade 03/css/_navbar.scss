@@ -21,6 +21,9 @@
     }
     ul{
         display: flex;
+        #botao-sair{
+            display: none;
+        }
         li{
             width: 100%;
             &:hover .submenu1 li{
